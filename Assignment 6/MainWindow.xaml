@@ -1,0 +1,46 @@
+﻿<Window x:Class="Assignment_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_6"
+        mc:Ignorable="d"
+        Title="Customer Registry" Height="600" Width="800">
+        <Grid>
+        <Label x:Name="LabelID" Content="ID" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelName" Content="Name" HorizontalAlignment="Left" Margin="71,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelAdress" Content="Street, zip code, city, country" HorizontalAlignment="Left" Margin="153,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelPhone" Content="Office and Home phone" HorizontalAlignment="Left" Margin="474,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelEmail" Content="E-mail" HorizontalAlignment="Left" Margin="670,35,0,0" VerticalAlignment="Top"/>
+       
+        <ListBox x:Name="ListBoxContent" ItemsSource="{Binding GetInfo/}" HorizontalAlignment="Left" Height="388" Margin="10,66,0,0" VerticalAlignment="Top" Width="772">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path= id}" />
+                        <TextBlock Text="{Binding Path=CustomerContact.FullName}"/>
+                        <TextBlock Text="{Binding Path=CustomerContact.Caddress}"/>
+                        <TextBlock Text="{Binding Path=CustomerContact.Cemail}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <!--<ListView ItemsSource="" HorizontalAlignment="Left" Height="388" Margin="10,66,0,0" VerticalAlignment="Top" Width="772" Name="LvCustomers"
+                 >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="30" DisplayMemberBinding="{Binding id}" />
+                   <GridViewColumn Header="Name" Width="150" DisplayMemberBinding="{Binding CustomerContact.FullName}" />
+                    <GridViewColumn Header="Street, zip code, city, country" Width="250" DisplayMemberBinding="{Binding CustomerContact.Caddress.City}" />
+                    <GridViewColumn Header="Office and Home phone" Width="200" DisplayMemberBinding="{Binding CustomerContact.Cphone.Home}" />
+                    <GridViewColumn Header="E-mail" Width="100" DisplayMemberBinding="{Binding CustomerContact.Cemail.Business}" />
+                   
+                </GridView>
+            </ListView.View>
+        </ListView>-->
+        <Button x:Name="BtnAdd" Click="BtnAdd_OnClick" Content="Add" HorizontalAlignment="Left" Margin="190,500,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="BtnChange" Content="Change" HorizontalAlignment="Left" Margin="353,500,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="BtnDelete" Content="Delete" HorizontalAlignment="Left" Margin="536,500,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

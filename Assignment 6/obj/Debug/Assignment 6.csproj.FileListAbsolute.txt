@@ -1,0 +1,19 @@
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\bin\Debug\Assignment 6.exe.config
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\bin\Debug\Assignment 6.exe
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\bin\Debug\Assignment 6.pdb
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6.csprojResolveAssemblyReference.cache
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\ContactWindow.g.cs
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\MainWindow.g.cs
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\App.g.cs
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6_MarkupCompile.cache
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6_MarkupCompile.lref
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\ContactWindow.baml
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\MainWindow.baml
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6.g.resources
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment_6.Properties.Resources.resources
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6.csproj.GenerateResource.Cache
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6.exe
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\Assignment 6.pdb
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\DialogBox.g.cs
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\DialogBox.baml
+E:\Webdingen\CsharpCruise\Assignment 6\Assignment 6\obj\Debug\GeneratedInternalTypeHelper.g.cs
